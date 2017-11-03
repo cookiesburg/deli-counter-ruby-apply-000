@@ -11,7 +11,7 @@ def now_serving(line = katz_deli)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line[0]}."
-    katz_deli = katz_deli.unshift
+    katz_deli = katz_deli[1..-1]
   end
 end
 
