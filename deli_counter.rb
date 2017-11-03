@@ -14,9 +14,9 @@ end
 
 def line(deli_line = katz_deli)
   response = "The line is currently"
-  if deli_line.length == 0 
+  if deli_line.length == 0
     puts "#{response} empty."
-  else 
+  else
     str = ":"
     deli_line.each_with_index do |name, idx|
       str += " #{idx + 1}. #{name}"
