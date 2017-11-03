@@ -6,7 +6,7 @@ def take_a_number(line = katz_deli, name)
   puts "Welcome, #{name}. You are number #{line.index(name) + 1} in line."
 end
 
-def now_serving
+def now_serving(line = katz_deli)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
   else
