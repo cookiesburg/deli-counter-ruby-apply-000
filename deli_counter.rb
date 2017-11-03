@@ -3,7 +3,7 @@ katz_deli = []
 
 def take_a_number(line = katz_deli, name)
   puts "Welcome, #{name}. You are number #{line.length} in line."
-  line.push(name)
+  line << name
 end
 
 def now_serving(line = katz_deli)
